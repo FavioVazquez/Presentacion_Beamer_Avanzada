@@ -6,6 +6,7 @@
 \usepackage{caption}
 \usepackage{ragged2e}
 \usepackage{hyperref}
+\usepackage{marvosym}
 \renewcommand{\figurename}{Figura}
 \usetheme{Warsaw}
 
@@ -141,5 +142,35 @@ Lista no enumerada:
  \end{columns}
 
 \end{frame}
+
+\section{Elementos avanzados}
+\subsection{Hiper-referencias}
+
+\begin{frame}[label=milink1]{Hiper-referencias}
+ 
+ Con las hiper-referencias podemos movernos entre l\'aminas
+ de un modo simple, lo cual hace m\'as f\'acil la 
+ navegaci\'on en la presentaci\'on.
+ 
+ \vspace{0.4cm}
+ 
+ \hyperlink{milink2}{\beamergotobutton{ Ir a la siguiente l\'amina}}
+\end{frame}
+
+\begin{frame}[label=milink2]{Hiper-referencias}
+ 
+ Funciona \Smiley{}
+ 
+  \vspace{0.4cm}
+ 
+ \hyperlink{milink1}{\beamerreturnbutton{Volver a l\'amina anterior}}
+\end{frame}
+
+\subsection{Animaciones}
+\begin{frame}{Animaciones}
+ 
+\end{frame}
+
+
 
 \end{document}
