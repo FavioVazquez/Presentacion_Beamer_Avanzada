@@ -1,0 +1,8 @@
+//Ignore some output files
+
+*.aux
+*.nav
+*.out
+*.pdf
+*.snm
+*.toc
